@@ -56,6 +56,7 @@ extension Project {
                 testAction: .testPlans(
                     [.relativeToRoot("TestPlan/\(name)Tests.xctestplan")],
                     configuration: .debug,
+                    attachDebugger: false,
                     preActions: [],
                     postActions: []
                 )
@@ -69,6 +70,7 @@ extension Project {
                 testAction: .testPlans(
                     [.relativeToRoot("TestPlan/\(name)UITests.xctestplan")],
                     configuration: .debug,
+                    attachDebugger: false,
                     preActions: [],
                     postActions: []
                 )
