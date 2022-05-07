@@ -44,6 +44,8 @@
 		9D14673C2826424000FF4F45 /* DemoTuistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTuistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D1467402826424000FF4F45 /* DemoTuistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTuistUITests.swift; sourceTree = "<group>"; };
 		9D1467422826424000FF4F45 /* DemoTuistUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTuistUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9D14674F2826439E00FF4F45 /* DemoTuistTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = DemoTuistTests.xctestplan; path = TestPlan/DemoTuistTests.xctestplan; sourceTree = "<group>"; };
+		9D146750282643D400FF4F45 /* DemoTuistUITests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = DemoTuistUITests.xctestplan; path = TestPlan/DemoTuistUITests.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,8 @@
 		9D1467192826423C00FF4F45 = {
 			isa = PBXGroup;
 			children = (
+				9D14674F2826439E00FF4F45 /* DemoTuistTests.xctestplan */,
+				9D146750282643D400FF4F45 /* DemoTuistUITests.xctestplan */,
 				9D1467242826423D00FF4F45 /* DemoTuist */,
 				9D1467352826424000FF4F45 /* DemoTuistTests */,
 				9D14673F2826424000FF4F45 /* DemoTuistUITests */,

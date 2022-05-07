@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "146A93E8-2C62-4B49-B072-0EA8BD66B19F",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:DemoTuist.xcodeproj",
+        "identifier" : "9D14673B2826424000FF4F45",
+        "name" : "DemoTuistUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
